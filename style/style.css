@@ -28,15 +28,7 @@ a:hover {
  * Base structure
  */
 
-html,
 body {
-  height: 100%;
-  background-color: #333;
-}
-
-body {
-  display: -ms-flexbox;
-  display: flex;
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
@@ -45,10 +37,9 @@ body {
 .cover-container {
   max-width: 100%;
   max-height: 100%;
-  background: url('cover.png') ;
+  background: url('cover.png');
   background-attachment: fixed;
- 
-  
+  background-size: 100% auto;
 }
 
 .comp {
@@ -271,7 +262,7 @@ body {
 
 
 .centers{
-  object-position: 50% 50%; 
+  object-position: 50% 50%;
 }
 
 
