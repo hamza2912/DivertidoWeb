@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "aos": "^2.3.4",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "babel-preset-stage-1": "^6.1.18",
     "google-maps-react": "^2.0.2",
     "lodash": "^3.10.1",
